@@ -34,3 +34,17 @@ h2{
     margin-right: auto;
     margin-left: auto;
 }
+
+.blog-post{
+    background-color: blue;
+    width: 75%;
+}
+
+.other-posts{
+    background-color: green;
+    width: 25%;
+}
+
+.author-box{
+    background-color: yellow;
+}
