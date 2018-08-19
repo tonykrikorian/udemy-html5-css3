@@ -14,10 +14,13 @@ h1,h2{
 
 h1{
     font-size: 40px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 h2{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .main-text{
