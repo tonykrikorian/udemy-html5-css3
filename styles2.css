@@ -20,11 +20,13 @@ h1{
 
 h2{
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main-text{
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .author-text{
@@ -32,6 +34,39 @@ h2{
 }
 .container {
     width: 1140px;
-    margin-right: auto;
-    margin-left: auto;
+    margin:20px auto 0px auto;
 }
+
+.blog-post {
+    width: 75%; 
+    float: left;
+    padding-right: 30px;
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.author-box {
+    width: 75%;
+    border-top: 1px solid #c9c9c9;
+    padding-top: 20px;
+}
+
+.logo-header{
+    float: left;
+}
+.main-header{
+    padding-top: 50px;
+}
+
+
+
+
+

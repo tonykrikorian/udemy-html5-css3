@@ -46,6 +46,8 @@ h2{
 }
 
 .author-box{
+    border-top:2px solid #c4c4c4;
+    padding-top: 20px;
 }
 
 .clear-fix::after{
